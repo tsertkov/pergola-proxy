@@ -10,4 +10,4 @@ components:
   - host: ss
   files:
   - path: /etc/shadowsocks-rust/config.json
-    config-ref: shadowsocks-config
+    config-ref: shadowsocks.config
