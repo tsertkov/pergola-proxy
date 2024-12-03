@@ -3,7 +3,7 @@ version: v1
 components:
 - name: ss
   docker:
-    image: ghcr.io/shadowsocks/ssserver-rust:v1.21.2
+    file: Dockerfile.ssserver
   ports:
   - 8388
   ingresses:
