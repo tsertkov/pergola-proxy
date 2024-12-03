@@ -1,6 +1,6 @@
 # shadowsocks-pergola
 
-Running Shadowsocks server on Pergola platform.
+Project to run Shadowsocks server on Pergola platform.
 
 See:
 - https://pergola.cloud/ - The Platform to live the DevOps dream
