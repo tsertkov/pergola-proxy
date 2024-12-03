@@ -1,1 +1,1 @@
-# ss-pergola
+# shadowsocks-pergola
