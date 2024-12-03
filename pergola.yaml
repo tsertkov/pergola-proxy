@@ -1,13 +1,13 @@
 version: v1
 
 components:
-- name: ss
+- name: ssserver
   docker:
     file: Dockerfile.ssserver
   ports:
   - 8388
   ingresses:
-  - host: ss
+  - host: ssserver
   files:
   - path: /etc/shadowsocks-rust/config.json
     config-ref: shadowsocks.config
