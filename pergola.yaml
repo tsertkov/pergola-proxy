@@ -8,3 +8,6 @@ components:
   - 8388
   ingresses:
   - host: ss
+  files:
+  - path: /etc/shadowsocks-rust/config.json
+    config-ref: shadowsocks-config
