@@ -4,6 +4,10 @@ components:
 - name: ssserver
   docker:
     file: Dockerfile.ssserver
+    platform:
+      - arch: amd64
+      - arch: arm64
+  user: 65534
   ports:
   - 8388
   ingresses:
