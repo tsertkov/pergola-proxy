@@ -11,4 +11,4 @@ RUN cd /tmp && \
     chmod +x /usr/bin/v2ray-plugin
 
 USER nobody
-CMD [ "sslocal", "--log-without-time", "-c", "/etc/shadowsocks-rust/config.json" ]
+CMD [ "sslocal", "-vvv", "-c", "/etc/shadowsocks-rust/config.json" ]
