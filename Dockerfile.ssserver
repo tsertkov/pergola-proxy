@@ -12,7 +12,7 @@ RUN cd /tmp && \
     chmod +x /usr/bin/v2ray-plugin
 
 COPY ./colortest-ansi /usr/local/bin
-RUN /usr/local/bin/colortest-ansi && true
+RUN /usr/local/bin/colortest-ansi && echo 'build 1'
 
 USER nobody
 
