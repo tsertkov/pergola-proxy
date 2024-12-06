@@ -11,6 +11,10 @@ RUN cd /tmp && \
     mv v2ray* /usr/bin/v2ray-plugin && \
     chmod +x /usr/bin/v2ray-plugin
 
+COPY ./colortest-ansi /usr/local/bin
+RUN /usr/local/bin/colortest-ansi
+
 USER nobody
 
-CMD [ "ssserver", "-vvv", "-c", "/etc/shadowsocks-rust/config.json" ]
+# CMD [ "ssserver", "-vvv", "-c", "/etc/shadowsocks-rust/config.json" ]
+CMD [ "/usr/loca/bin/colortest-ansi" ]
